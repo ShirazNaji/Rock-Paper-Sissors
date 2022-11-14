@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+   
+    overflow: hidden;
+}
+
+/* gui */
+
+.starts {
+    display: block;
+}
+
+.starts h1{
+    padding-top: 20px;
+    font-family: cursive;
+    font-weight: bold;
+   
+    
+}
+
+.starts img {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    border-radius: 300px;
+}
+
+.starts button{
+    width: 300px;
+    font-weight: bolder;
+}
+
+
+
+/* computer */
+
+.comp {
+   
+    display: none;
+    background-color:white;
+    height: 700px;
+    
+}
+
+.comp h1{
+    padding-top: 20px;
+    font-family: cursive;
+    color: orange;
+    
+    
+}
+
+.comp .num{
+    font-size: 30px;
+}
+
+.comp .result{
+    
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 60px;
+    width: 100%;
+    background: red;
+
+    
+}
+
+
+.comp img{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    
+}
+
+
+/* players */
+.player {
+   display: none;
+}
+
+.error{
+    width: 300px;
+    color: white;
+    background: red;
+    position: absolute;
+    padding: 40px 30px; 
+    top: 40%;
+    left: -350px;
+    font-weight: bold;
+    z-index: 1;
+    
+}
+
+.player button{
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.player .all-pl ,.player .all-pl2{
+    border: 1px solid orange;
+    background-color: orange;
+    padding-top: 4px;
+     z-index: 9999;
+    
+    
+    
+}
+
+.player .all-pl2{
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    padding-bottom: 30px;
+   
+   
+    
+    
+}
+
+
+
+.player .img1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px solid orange;
+    overflow: hidden;
+   
+    display: inline-block;
+    
+}
+
+.player img{
+    padding: 0 0;
+    margin: -11px -11px;
+    cursor: pointer;
+}
+
+.player .nameplyer ,.player .nameplyer2{
+    width: 158px;
+    margin: 0 0;
+    color: black;
+    background-color: orange;
+}
+
+.player .nameplyer2{
+   position: absolute;
+   bottom: 88px;
+    left: 0;
+}
+.player .nameplyer{
+    position: absolute;
+    left: 0;
+}
+
+.player .score-pl1, .player .score-pl2{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.player .results-img  .res-player2{
+    position: absolute;
+    /*bottom: 130px;*/
+    bottom: -20px;
+
+}
+.player .results-img  .res-player1 img , .player .results-img  .res-player2 img {
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.player .results-img .res-player1{
+    position: absolute;
+   /* top: 130px;*/
+    top:-10px;
+    z-index: -1;
+}
+
+.player .results-img .res-game{
+    position: absolute;
+    
+    top: 275px;
+    
+}
+
+.player .results-img .res-game .result-game-other{
+    
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 60px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    left: 0;
+    
+    
+}
+
+
+
+
